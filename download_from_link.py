@@ -4,7 +4,7 @@ import sys
 
 if __name__ == '__main__':
     if len(sys.argv) != 3:
-        print("Error: you should pass 2 arguments: link_to_download_from_path_to_save_downloaded file")
+        print("Error: you should pass 2 arguments: [link_to_download_from] [path_to_save_downloaded_file]")
         exit(1)
 
     url = sys.argv[1]
